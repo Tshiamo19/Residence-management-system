@@ -1,0 +1,48 @@
+body , html{
+    height: 100%;
+  }
+
+body{
+    background-image: url(images/moroka.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+  .container1 , .container2{
+      height: 650px;
+      width: 550px;
+      margin : 100px auto;
+      background-color: mediumpurple;
+      padding: 20px;
+      box-shadow: 4px 4px 10px 0px black;
+      position: relative;
+    }
+    .form-select{
+      margin-top: 20px;
+    }
+    
+    #submit{
+      margin-top: 20px;
+    }
+    
+    .container3 , .container4{
+      height: 330px;
+      width: 550px;
+      margin : 100px auto;
+      background-color: mediumpurple;
+      padding: 20px;
+      box-shadow: 4px 4px 10px 0px black;
+      position: relative;
+    }
+    .sidebar{
+      position: absolute;
+      height: 100%;
+      width: 300px;
+      margin : 100px auto;
+      background-color: mediumpurple;
+      padding: 20px;
+      float: left;
+      box-shadow: 4px 4px 10px 0px black;
+      position: relative;
+    }
